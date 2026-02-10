@@ -9,3 +9,7 @@ const booksById = ([
 for (const [id, book] of booksById) {
 	console.log(`ID: ${id}, Title: ${book.title}, Author: ${book.author}`);
 }
+
+// notes that the keys are actually strings
+console.log(booksById.get(1)); // Output: undefined
+console.log(booksById.get('1')); // Output: { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' }

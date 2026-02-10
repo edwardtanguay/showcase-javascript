@@ -9,4 +9,5 @@ console.log("has id 3?", booksById.has(3)); // Output: false
 const book1 = booksById.get(1);
 console.log(book1); // Output: { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' }
 
+console.log(booksById.get(2)); // Output: { title: 'To Kill a Mockingbird', author: 'Harper Lee' }
 console.log(booksById.get(3)); // Output: undefined
